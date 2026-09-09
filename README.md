@@ -46,7 +46,7 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 
 **PROGRAM**
-
+```
 module exp5(q, qb,j,k,clock,reset);
     input j,k,clock,reset;
     output reg q, qb;
@@ -82,6 +82,7 @@ begin
             end
 end  
 endmodule
+```
 **RTL LOGIC FOR FLIPFLOPS**
 <img width="980" height="586" alt="image" src="https://github.com/user-attachments/assets/9cc337d8-729c-4e49-9757-9fc2ccfb5166" />
 
